@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
   <name>kfj_ros2_talker</name>
-  <version>0.4.0</version>
+  <version>0.0.1</version>
   <description>ROS2 talker</description>
   <maintainer email="csukuangfj@gmail.com">Fangjun Kuang</maintainer>
   <license>BSD</license>

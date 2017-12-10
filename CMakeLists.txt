@@ -19,10 +19,10 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-add_executable(talker1 talker1.cpp)
+add_executable(talker1 src/talker1.cpp)
 ament_target_dependencies(talker1 rclcpp std_msgs)
 
-add_executable(talker2 talker2.cpp)
+add_executable(talker2 src/talker2.cpp)
 ament_target_dependencies(talker2 rclcpp std_msgs)
 
 install(TARGETS
